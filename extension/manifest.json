@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Sider Browser",
+  "description": "A lightweight side panel browser for quick access while you work.",
+  "version": "1.0.0",
+  "permissions": ["sidePanel", "tabs", "storage"],
+  "host_permissions": ["https://*/*", "http://*/*"],
+  "action": {
+    "default_title": "Open Sider Browser",
+    "default_popup": "popup.html"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; frame-src https://* http://*;"
+  }
+}

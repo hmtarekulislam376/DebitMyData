@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sider Browser</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="panel">
+      <div class="card">
+        <h1>Sider Browser</h1>
+        <p>Open a quick side panel to browse docs, dashboards, or your favorite sites without leaving your tab.</p>
+        <label for="urlInput">Start URL</label>
+        <input
+          id="urlInput"
+          type="url"
+          placeholder="https://debitmydata.com/marketplace"
+          value="https://debitmydata.com/marketplace"
+        />
+        <button id="openPanel">Open Side Panel</button>
+        <button id="useCurrent" class="secondary">Use Current Tab</button>
+        <div class="notice">Tip: You can pin the side panel for always-on access.</div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
