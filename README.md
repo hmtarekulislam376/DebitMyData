@@ -150,6 +150,16 @@ debitmydata-landing/
    http://localhost:8000
    ```
 
+## 🧩 Chrome Extension (Sider Browser)
+
+This repo now includes a lightweight Chrome side panel extension for quick browsing while you work.
+
+### **Load the extension**
+1. Open **Chrome** and go to `chrome://extensions`.
+2. Enable **Developer mode**.
+3. Click **Load unpacked** and select the `extension/` folder.
+4. Click the extension icon and choose **Open Side Panel**.
+
 ### **Development Setup**
 ```bash
 # Install live server (optional)
